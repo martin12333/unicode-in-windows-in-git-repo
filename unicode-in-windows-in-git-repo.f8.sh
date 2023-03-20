@@ -10,6 +10,9 @@ git add C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\unicode-in-window
 	git commit -v -a -m "☀ add"
 git push
 
-
 	git commit -v -a -m "smile-in-commit-msg☻"
+	git commit -v -a -m "smile-in-commit-msg@☺@thru-pwsh"
+
+
+
 
