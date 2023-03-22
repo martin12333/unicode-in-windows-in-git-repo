@@ -7,6 +7,7 @@ https://maryrosecook.com/blog/post/git-from-the-inside-out
 
 
 
+git cat-file -p   a1c672f12ee4403b2af792d01c207ed24c2ae373
 
 
 
@@ -16,6 +17,22 @@ git clone https://github.com/martin12333/unicode-in-windows-in-git-repo.git
 code unicode-in-windows-in-git-repo
 
 git add C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\unicode-in-windows-in-git-repo.f8.sh
+
+
+	git commit -v -a -m "emoji-in-commit-msg💛"
+
+
+
+	git commit -v -a -m "☀ add"
+
+❤️👌👍⨶→⁍•‸[⨆⨅⑴①⋁⋀⊞⊠⊡⊗≫≟≙⊌⊎⊍]
+💛💚💙🤍💘💥💫🕳️☮️☸️🛐🆔⚕️♾️✴️💮🪷㊗️🅰️🆘⛔🛑
+
+📛❌⭕🚫❗‼️⁉️💯🔅⚠️🔰♻️❇️✳️✅
+.....
+
+
+
 
 	git commit -v -a -m "☀ add"
 git push
@@ -43,7 +60,7 @@ git add "smile-in-fname@☺@"
 
 git push
 
-grep  -R "smile-in-fnam"
+grep  --text  -R "smile-in-fnam"
 
 git log --oneline
 git log
