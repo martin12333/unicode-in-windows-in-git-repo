@@ -21,13 +21,14 @@ git add C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\unicode-in-window
 
 
 
-
+chcp
 chcp 65001
 where xxd
 where bash
 dir C:\pf\git\usr\bin\xxd.exe
 C:\pf\git\usr\bin\xxd.exe
-C:\pf\git\bin\git.exe   commit -v -a -m "emoji-in-commit-msg💛"
+
+C:\pf\git\bin\git.exe   commit -v -a -m "emoji-in-commit-msg💛 via cmd.exe 437"
 
 
 	git commit -v -a -m "emoji-in-commit-msg💛"
@@ -35,6 +36,7 @@ echo git commit -v -a -m "emoji-in-commit-msg💛"
 
 
 	git commit -v -a -m "☀ add"
+git push
 
   0020
 ☀ 2600
