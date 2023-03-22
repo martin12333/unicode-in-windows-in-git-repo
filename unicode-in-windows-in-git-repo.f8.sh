@@ -19,11 +19,26 @@ code unicode-in-windows-in-git-repo
 git add C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\unicode-in-windows-in-git-repo.f8.sh
 
 
-	git commit -v -a -m "emoji-in-commit-msg💛"
 
+
+
+chcp 65001
+where xxd
+where bash
+dir C:\pf\git\usr\bin\xxd.exe
+C:\pf\git\usr\bin\xxd.exe
+C:\pf\git\bin\git.exe   commit -v -a -m "emoji-in-commit-msg💛"
+
+
+	git commit -v -a -m "emoji-in-commit-msg💛"
+echo git commit -v -a -m "emoji-in-commit-msg💛"
 
 
 	git commit -v -a -m "☀ add"
+
+  0020
+☀ 2600
+  0020
 
 ❤️👌👍⨶→⁍•‸[⨆⨅⑴①⋁⋀⊞⊠⊡⊗≫≟≙⊌⊎⊍]
 💛💚💙🤍💘💥💫🕳️☮️☸️🛐🆔⚕️♾️✴️💮🪷㊗️🅰️🆘⛔🛑
@@ -53,12 +68,38 @@ echo  'a' > data/letter.txt
 git add data/letter.txt
 echo  'a' >"smile-in-fname@☺@"
 
-shutdown /?
-shutdown /l
 
-########## windows desktop taskbar explorer restart loop
+
 ##########echo  'a' >"emoji-in-fname@💛@"
+
+f 0066
+n 006e
+a 0061
+m 006d
+e 0065
+@ 0040
+  d83d
+  dc9b
+@ 0040
+# windows bug emoji in filename cause explorer.exe restart loop
+########## windows desktop taskbar explorer restart loop [!!!] ‼️  ‼️⁉️❗🚫💥🆘⛔🛑❌🚫‼️⁉️🔴🟥
+
 git add "smile-in-fname@☺@"
+
+f 0066
+n 006e
+a 0061
+m 006d
+e 0065
+@ 0040
+☺ 263a
+@ 0040
+" 0022
+ 000d
+
+ 000a
+
+
 ######git add "emoji-in-fname@💛@"
 
 $ git add "emoji-in-fname@@@"
@@ -66,6 +107,9 @@ error: open("emoji-in-fname@�@"): No such file or directory
 error: unable to index file 'emoji-in-fname@�@'
 fatal: adding files failed
 
+
+shutdown /?
+shutdown /l
 
 
 	git commit -v -a -m "smile-in-fnam"
