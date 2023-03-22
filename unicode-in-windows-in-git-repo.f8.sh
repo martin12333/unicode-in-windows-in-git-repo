@@ -52,8 +52,24 @@ mkdir data
 echo  'a' > data/letter.txt
 git add data/letter.txt
 echo  'a' >"smile-in-fname@☺@"
+
+shutdown /?
+shutdown /l
+
+########## windows desktop taskbar explorer restart loop
+##########echo  'a' >"emoji-in-fname@💛@"
 git add "smile-in-fname@☺@"
+######git add "emoji-in-fname@💛@"
+
+$ git add "emoji-in-fname@@@"
+error: open("emoji-in-fname@�@"): No such file or directory
+error: unable to index file 'emoji-in-fname@�@'
+fatal: adding files failed
+
+
+
 	git commit -v -a -m "smile-in-fnam"
+	####git commit -v -a -m "emoji-in-fnam"
 	git commit -v -a -m ...
 
  create mode 100644 "smile-in-fname@\342\230\272@"
